@@ -1,0 +1,34 @@
+TimeBomb 0.4 <September 12 1999> 
+
+* FIXED IN THIS RELEASE / OR ADDED FEATURES *
+- Added a new feature that allows you to play a CD track when the alarm goes off.
+- Fixed a little bug that prevented the stop button from working.
+- Fixed problem with text not being erased when stopping the alarm.
+
+//---------------------------------------------
+
+TimeBomb 0.3 <July 29 1999> 
+
+* FIXED IN THIS RELEASE / OR ADDED FEATURES *
+- Redesigned the internals of the program, smaller disk and memory foot print now
+  and should be even more responsive.
+- Switched to the new BGameSound class which seemed to fix the strange sound playback
+  in R4.5.
+- Because we made the above switch R4.5 will be needed to run this app, unless we receive
+  requests for a R4 version.
+
+//---------------------------------------------
+
+TimeBomb 0.2 <June 21 1999> 
+
+* FIXED IN THIS RELEASE / OR ADDED FEATURES *
+- Changed the icon a little.
+- Now alarm sound files can have spaces in the name and function properly.
+- Now supports scrolling messages to go along with alarm, up too 100 
+  characters in length.
+- Added button to stop alarm.
+- The main window now pops up when the alarm goes off, if the window is 
+  minimized in the deskbar.
+
+//---------------------------------------------
+

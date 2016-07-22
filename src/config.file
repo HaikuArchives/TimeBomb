@@ -1,0 +1,14 @@
+[WinPos] 735 33
+[AlarmTime1] 2 0 pm
+[AlarmTime2] 12 0 pm
+[AudibleAlarm] 1
+[CDdevice] 0
+[PlayCD] 1
+[WholeSong] 1
+[CDTrack] 5
+[Volume] 0.50
+[AlarmSound] "alarm1"
+[NumAlarmRings] 30
+[ColorRGB] 175 0 0
+[AlarmMSG1] "ALARM 1 is going!"
+[AlarmMSG2] "ALARM 2 is going!"

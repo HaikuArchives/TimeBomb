@@ -27,7 +27,7 @@ class AppWindow : public BWindow
 
 	public:
 			
-			AppWindow(BRect frame,uint32 workspaces = B_CURRENT_WORKSPACE);			
+			AppWindow(BRect frame,uint32 workspaces);			
 
 };
 

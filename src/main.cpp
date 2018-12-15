@@ -2,7 +2,7 @@
 
 #include "App.h"
 #include "cd.h"
-
+#include <AppKit.h>
 //GLOBALS
 D_CD		*cd;
 
@@ -19,7 +19,7 @@ int main(int argc,char *argv[])
 			hide = true;
 	}
 
-	App		myApp( argc>1 ?  argv[argc-1] : "");	
+	App		myApp(  argv[argc-1]);	
 		
 	myApp.Run();
 	return B_NO_ERROR;	

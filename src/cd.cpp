@@ -1,6 +1,6 @@
 
 #include "cd.h"
-
+#include <StorageKit.h>
 D_CD::D_CD()
 {
 
@@ -30,7 +30,7 @@ D_CD::D_CD()
 
 	// we need it to be the right type; this will print an error message
 	// if we didn't find it
-	if (param->Type() == BParameter::B_CONTINUOUS_PARAMETER)
+/*	if (param->Type() == BParameter::B_CONTINUOUS_PARAMETER)
 	{
 		GainParam = dynamic_cast<BContinuousParameter*>(param);
 	}
@@ -41,7 +41,7 @@ D_CD::D_CD()
 
 	// calculate the minimum and maximum volume values for CD 
 	MinVolume = GainParam->MinValue();
-	MaxVolume = GainParam->MaxValue();
+	MaxVolume = GainParam->MaxValue();*/
 
 	Init(CDROM_1);			//Get the first CD rom ready to rock
 

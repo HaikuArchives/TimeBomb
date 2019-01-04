@@ -6,7 +6,7 @@
 //GLOBALS
 D_CD		*cd;
 
-int main(int argc,char *argv[])
+int main(int argc, const char* argv[])
 {
 	bool hide=false;			//  Show/Hide window flag
 	int	 index;
@@ -19,8 +19,8 @@ int main(int argc,char *argv[])
 			hide = true;
 	}
 
-	App		myApp(  argv[argc-1]);	
-		
+	App		myApp( argc>1 ?  argv[argc-1] : "");
+
 	myApp.Run();
 	return B_NO_ERROR;	
 }

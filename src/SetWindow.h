@@ -8,6 +8,10 @@
 #include <ListView.h>
 
 #include <Window.h>
+#include <StorageKit.h>
+#include <AppKit.h>
+#include <InterfaceKit.h>
+#include <SupportKit.h>
 
 class SetWindow : public BWindow
 {
